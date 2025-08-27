@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Api em ts, express, typeorm, swagger, supertest, node, jest",
   "main": "server.ts",
- "scripts": {
+  "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "nodemon --watch src --ext ts,js --exec \"ts-node -r tsconfig-paths/register src/server.ts\"",
@@ -19,7 +19,7 @@
     "url": "https://github.com/MariaVitoriaK/UPFOME/issues"
   },
   "homepage": "https://github.com/MariaVitoriaK/UPFOME#readme",
-"dependencies": {
+  "dependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^24.3.0",
     "cors": "^2.8.5",
