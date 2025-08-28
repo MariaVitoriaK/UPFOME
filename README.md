@@ -10,6 +10,8 @@
 
 -- Baixar o pgadmin - upfome
 
+-- Baixar a extensão Postman no VScode
+
 Ex do env: 
 DB_USER=postgres
 DB_PASSWORD=masterkey
