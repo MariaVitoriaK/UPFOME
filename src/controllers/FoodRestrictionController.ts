@@ -12,7 +12,7 @@ const ingredientRepo = () => AppDataSource.getRepository(Ingredient)
 export class FoodRestrictionController {
 
     static async create(req: Request, res: Response) {
-        const{ level } = req.body.level
+        const level = req.body.level
         const { userId, ingredientId } = req.params
         
         try {
